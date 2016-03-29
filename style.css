@@ -1,0 +1,32 @@
+body {
+margin: 0;
+width: 600px;
+background-image: url(http://www.currencyquest.com/template/custom/css/black/background.jpg);
+}
+
+section {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.article savings {
+  text-align: center;
+}
+
+section article {
+  background-color: white;
+  padding: 70px 70px 70px 70px;
+  border: 2px solid black;
+}
+
+p {
+  text-align: center;
+}
+
+.welcome {
+  font-size: 22px;
+  font-style: bold;
+}
